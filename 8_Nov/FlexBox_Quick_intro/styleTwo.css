@@ -1,0 +1,49 @@
+.parentContainer {
+  border: 1px solid black;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  flex-wrap: nowrap;
+}
+
+.divStyleOne {
+  border: 1px solid black;
+  order: 10;
+  /* display: inline; */
+}
+
+.divStyleTwo {
+  border: 1px solid black;
+  order: 2;
+  /* display: inline; */
+}
+
+.divStyleThree {
+  border: 1px solid black;
+  order: 3;
+  /* display: inline; */
+}
+
+.divStyleFour {
+  border: 1px solid black;
+  order: 4;
+  /* display: inline; */
+}
+
+.divStyleFive {
+  border: 1px solid black;
+  order: 5;
+  /* display: inline; */
+}
+
+.spanStyleOne {
+  border: 1px solid black;
+  order: 6;
+  /* display: block; */
+}
+
+.spanStyleTwo {
+  border: 1px solid black;
+  order: 7;
+  /* display: block; */
+}

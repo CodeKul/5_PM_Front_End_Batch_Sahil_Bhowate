@@ -1,0 +1,32 @@
+.flexContainer {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  flex-direction: row;
+  /* row-gap: 10px; */
+  /* column-gap: 10px; */
+
+  /* row gap column gap */
+  gap: 10px 10px;
+}
+
+.childOne {
+  border: 1px solid black;
+  background-color: burlywood;
+}
+
+.childTwo {
+  border: 1px solid black;
+  background-color: burlywood;
+}
+
+.childThree {
+  border: 1px solid black;
+  background-color: burlywood;
+}
+
+.childFour {
+  border: 1px solid black;
+  background-color: burlywood;
+}

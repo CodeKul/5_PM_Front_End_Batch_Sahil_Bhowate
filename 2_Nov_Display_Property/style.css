@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.divStyle {
+  color: blueviolet;
+  background-color: burlywood;
+  border: 1px solid black;
+  /* display: inline; */
+}
+
+.containerStyle {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+}

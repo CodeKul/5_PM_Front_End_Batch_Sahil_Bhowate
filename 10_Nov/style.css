@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.childElement {
+  border: 1px solid black;
+  background-color: burlywood;
+  text-align: center;
+}
+
+.a {
+  text-decoration: none;
+}

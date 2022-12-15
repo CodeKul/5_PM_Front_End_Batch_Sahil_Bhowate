@@ -1,0 +1,20 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.imgContainer {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row-reverse;
+  border: 1px solid black;
+}
+
+.imgStyle {
+  width: 100px;
+  height: 100px;
+}
+
+.imgElement {
+  border: 1px solid black;
+}

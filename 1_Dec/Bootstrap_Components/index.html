@@ -1,0 +1,163 @@
+<html>
+
+<head>
+  <title>This is web page title</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <h1>Accordian Component Example</h1>
+  <!-- Accordian Example -->
+  <div class="accordion" id="accordionExample">
+
+    <div class="accordion-item">
+
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <h1>Alert Component Example</h1>
+
+  <div><b>Names of the classes used :</b>
+    alert , alert-primary , alert-secondary , alert-success , alert-danger , alert-warning , alert-info ,
+    alert-light , alert-dark , alert-link , alert-heading ,
+  </div>
+
+  <!-- Alert Example -->
+  <h2>Simple Alert Component</h2>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+  <div class="alert alert-secondary" role="alert">
+    A simple secondary alert—check it out!
+  </div>
+  <div class="alert alert-success" role="alert">
+    A simple success alert—check it out!
+  </div>
+  <div class="alert alert-danger" role="alert">
+    A simple danger alert—check it out!
+  </div>
+  <div class="alert alert-warning" role="alert">
+    A simple warning alert—check it out!
+  </div>
+  <div class="alert alert-info" role="alert">
+    A simple info alert—check it out!
+  </div>
+  <div class="alert alert-light" role="alert">
+    A simple light alert—check it out!
+  </div>
+  <div class="alert alert-dark" role="alert">
+    A simple dark alert—check it out!
+  </div>
+
+  <!-- Alert Example Two -->
+  <h2>Alert Component with links</h2>
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-secondary" role="alert">
+    A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-success" role="alert">
+    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-danger" role="alert">
+    A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-warning" role="alert">
+    A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-info" role="alert">
+    A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-light" role="alert">
+    A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <div class="alert alert-dark" role="alert">
+    A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+
+  <h2>Using the custom html elements within the alert container</h2>
+  <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so
+      that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+  </div>
+
+  <h2>Using bootstrap icons inside the Alert component</h2>
+  <div class="alert alert-primary d-flex align-items-center" role="alert">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+      class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+      <path
+        d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+    </svg>
+
+    <div>
+      An example alert with an icon
+    </div>
+  </div>
+
+  <h2>Alert component which can be dismissed.</h2>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <h1>Badge Component</h1>
+  <span class="badge bg-danger">New</span>
+
+  <h2>Badge Component inside bell icon</h2>
+  <button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bell"
+      viewBox="0 0 16 16">
+      <path
+        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+    </svg><span><span class="badge bg-danger translate-middle top-0 start-100">4</span>
+  </button>
+
+  <h2>Bagde Component inside the button.</h2>
+  <button type="button" class="btn btn-primary">
+    Notifications <span class="badge bg-secondary">4</span>
+  </button>
+
+  <h2>Badge component positioned inside the button.</h2>
+  <button type="button" class="btn btn-primary position-relative">
+    Inbox
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </button>
+
+  <h2></h2>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>

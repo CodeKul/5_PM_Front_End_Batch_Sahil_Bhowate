@@ -1,0 +1,50 @@
+.flexContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  width: 500px;
+  height: 200px;
+  background-color: #d4d4d4;
+}
+
+.squareOne {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  background-color: rgba(255, 118, 118, 255);
+}
+
+.rectangleTwo {
+  text-align: center;
+  background-color: #c2ff76;
+  height: 70px;
+  width: 300px;
+}
+
+.rectangleThree {
+  /* border: 1px solid black; */
+  width: 150px;
+  background-color: #ff9bf7;
+}
+
+.rectangleFour {
+  /* border: 1px solid black; */
+  width: 150px;
+}
+
+.flexContainerTwo {
+  display: flex;
+  height: 130px;
+}
+
+.rectFourA {
+  /* border: 1px solid black; */
+  height: 65px;
+  background-color: #9ba4ff;
+}
+
+.rectFourB {
+  /* border: 1px solid black; */
+  height: 65px;
+  background-color: #9ba4ff;
+}

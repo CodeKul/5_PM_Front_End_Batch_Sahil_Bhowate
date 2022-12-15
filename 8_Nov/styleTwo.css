@@ -1,0 +1,28 @@
+.flexContainer {
+  border: 1px solid black;
+  display: flex;
+}
+
+.childOne {
+  border: 1px solid black;
+  background-color: burlywood;
+  flex-grow: 1;
+}
+
+.childTwo {
+  border: 1px solid black;
+  background-color: burlywood;
+  flex-grow: 2;
+}
+
+.childThree {
+  border: 1px solid black;
+  background-color: burlywood;
+  flex-grow: 3;
+}
+
+.childFour {
+  border: 1px solid black;
+  background-color: burlywood;
+  flex-grow: 1;
+}

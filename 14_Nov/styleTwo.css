@@ -1,0 +1,26 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.childOne {
+  border: 1px solid black;
+}
+
+.childTwo {
+  border: 1px solid black;
+}
+
+.childThree {
+  border: 1px solid black;
+}
+
+.childFour {
+  border: 1px solid black;
+}
+
+.childFive {
+  border: 1px solid black;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}

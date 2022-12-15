@@ -1,0 +1,30 @@
+.flexContainer {
+  display: flex;
+  border: 1px solid black;
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  justify-content: flex-start;
+}
+
+.childStyleOne {
+  border: 1px solid black;
+  order: 4;
+}
+
+.childStyleTwo {
+  border: 1px solid black;
+  order: 7;
+}
+
+.childStyleThree {
+  border: 1px solid black;
+  order: 2;
+}
+
+.childStyleFour {
+  border: 1px solid black;
+  order: 1;
+}

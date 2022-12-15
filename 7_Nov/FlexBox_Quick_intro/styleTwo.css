@@ -1,0 +1,35 @@
+.parentContainer {
+  border: 1px solid black;
+  display: flex;
+}
+
+.divStyleOne {
+  border: 1px solid black;
+  order: 7;
+  flex-grow: 1;
+  background-color: bisque;
+}
+
+.divStyleTwo {
+  border: 1px solid black;
+  order: 6;
+  background-color: bisque;
+}
+
+.divStyleThree {
+  border: 1px solid black;
+  order: 5;
+  background-color: bisque;
+}
+
+.divStyleFour {
+  border: 1px solid black;
+  order: 4;
+  background-color: bisque;
+}
+
+.divStyleFive {
+  border: 1px solid black;
+  order: 3;
+  background-color: bisque;
+}

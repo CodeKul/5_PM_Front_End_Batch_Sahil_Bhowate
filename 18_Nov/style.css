@@ -1,0 +1,34 @@
+.childElementOne {
+  grid-area: requiredArea;
+  /* grid-row-start: 1; */
+  border: 1px solid black;
+}
+
+.gridContainer {
+  grid-template-areas: "requiredArea requiredArea ."
+                       "requiredArea  requiredArea .";
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid black;
+}
+
+.childElementTwo {
+  border: 1px solid black;
+}
+
+.childElementThree {
+  border: 1px solid black;
+}
+
+.childElementFour {
+  border: 1px solid black;
+}
+
+.childElementFive {
+  border: 1px solid black;
+}
+
+.childElementSix {
+  border: 1px solid black;
+}

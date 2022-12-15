@@ -1,0 +1,32 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 300px 300px 300px;
+  border: 1px solid black;
+  width: 800px;
+  height: 900px;
+}
+
+.headerStyle {
+  border: 1px solid black;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.MainStyle {
+  border: 1px solid black;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.sidebarStyle {
+  border: 1px solid black;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.footerStyle {
+  border: 1px solid black;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}

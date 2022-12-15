@@ -1,0 +1,33 @@
+.containerStyle {
+  border: 1px solid black;
+}
+
+.rowStyle {
+  border: 1px solid black;
+  height: 284px;
+}
+
+.childStyle {
+  border: 1px solid black;
+}
+
+.elementOne {
+  background-color: pink;
+  /* width: 20px;
+  height: 20px; */
+}
+
+.elementTwo {
+  background-color: lightgreen;
+  height: 114px;
+}
+
+.elementThree {
+  background-color: maroon;
+  height: 170px;
+}
+
+.elementFour {
+  background-color: violet;
+  height: 170px;
+}

@@ -1,0 +1,23 @@
+.parentStyle {
+  padding: 14px;
+}
+
+.ChildOne {
+  background-color: blueviolet;
+  display: inline;
+}
+
+.ChildTwo {
+  background-color: burlywood;
+  display: inline;
+}
+
+.ChildThree {
+  background-color: brown;
+  display: inline;
+}
+
+.ChildFour {
+  background-color: blue;
+  display: inline;
+}

@@ -1,0 +1,30 @@
+.paragraphStyle {
+  font-size: 45px;
+}
+
+.spanStyle {
+  font-size: 2em;
+}
+
+.paraTwoStyle {
+  /* The font size of the root element is 16px. Means the font size of html element */
+  font-size: 4rem;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.paraThreeStyle {
+  width: 30%;
+}
+
+.vhStyle {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+  height: 25vh;
+  width: 100vw;
+}

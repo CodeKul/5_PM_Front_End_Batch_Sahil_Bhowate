@@ -1,0 +1,38 @@
+.parentStyle {
+  padding: 14px;
+}
+
+.ChildOne {
+  background-color: blueviolet;
+  float: left;
+  /* float: none; */
+}
+
+.ChildTwo {
+  background-color: burlywood;
+  float: left;
+  /* float: none; */
+}
+
+.ChildThree {
+  background-color: brown;
+  float: left;
+  /* float: none; */
+}
+
+.ChildFour {
+  background-color: blue;
+  float: left;
+  /* float: none; */
+}
+
+.ChildFive {
+  background-color: yellowgreen;
+  float: left;
+  /* float: none; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,23 @@
+.divStyle {
+  border: 1px solid #d6c6c6;
+  background-color: rgba(192, 75, 75, 0.4);
+  /* background-color: rgb(192, 75, 75); */
+  margin: 70px;
+}
+
+/* The value of opacity varies from 0 to 1 */
+/* The lesser the value of opacity ; the greater is the transparency. */
+/* The greater the value of opacity , the lesser is the trnsparency */
+.parentStyle {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  background-color: rgb(79, 116, 162);
+  /* opacity: 0.4; */
+}
+
+/* 0 to 255 */
+/* The value of r , g , b shade varies from 0 to 255 */
+/* r- red */
+/* g- green */
+/* b- blue */

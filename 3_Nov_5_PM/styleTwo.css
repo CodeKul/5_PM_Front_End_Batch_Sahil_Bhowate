@@ -1,0 +1,13 @@
+.container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+}
+
+.childElement {
+  border: 1px solid black;
+  /* display: inline; */
+}
